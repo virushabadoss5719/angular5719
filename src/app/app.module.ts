@@ -33,6 +33,7 @@ import { EconomicalTradeComponent } from './economical-trade/economical-trade.co
 import { NonEconomicalTradeComponent } from './non-economical-trade/non-economical-trade.component';
 import { CashFlowScheduleComponent } from './cash-flow-schedule/cash-flow-schedule.component';
 import { StaticDataComponent } from './static-data/static-data.component';
+import { CustomerDetailsComponent } from './customer-details/customer-details.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { StaticDataComponent } from './static-data/static-data.component';
     EconomicalTradeComponent,
     NonEconomicalTradeComponent,
     CashFlowScheduleComponent,
-    StaticDataComponent
+    StaticDataComponent,
+    CustomerDetailsComponent
   ],
   imports: [
     BrowserModule,

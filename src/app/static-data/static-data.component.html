@@ -17,8 +17,6 @@
                 <mat-icon>perm_identity</mat-icon>
                 Country
             </mat-placeholder>
-            <input type="text" matInput [formControl]="country" />
-
             <mat-select [formControl]="country">
             <mat-option *ngFor="let c of countries" [value]="c.alpha3Code">
               {{c.name}}
@@ -61,3 +59,4 @@
         Submit
     </button>
 </form>
+<app-customer-details [customer]="customerForm.value"></app-customer-details>
